@@ -1,34 +1,29 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /*box-sizing: border-box;*/
 }
 
 html,body {
-    background-color:#FFFFFF;
-    width:100%;
-    height:100%;
+    background-color:#eaece5;
 }
 
 header {
   text-align: center;
-  background-color: aqua;
+  background-color: #c0ded9;
   padding: 10px;
+  color: #000000;
 }
-/*
-nav {
-    float: top;
-    padding-left: 10rem;
-    background-color: greenyellow;
-    padding: 20px
-}
-*/
+
+
+/* Navbar */
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #b2c2bf;
 }
 
 li {
@@ -37,33 +32,39 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: rgb(109, 109, 109);
+  border-radius: 15px;
 }
 
+/* End of navbar */
+
 article {
-  background-color: hotpink;
-  float: left;
-  width: 80%;
+  max-width: 50%;
   padding: 20px;
-  justify-content:center
+  justify-content:center;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
 }
 
 article p {
     float: left;
-    color: white;
+    color: black;
 }
 
 .hund {
   height: 400px;
   float: right;
   padding: 5px;
+  border-radius: 25px;
 }
 
 footer {
@@ -71,7 +72,7 @@ footer {
   bottom: 0;
   width: 100%;
   height: 2.5rem;
-  background-color: gray;
+  background-color: #3b3a30;
   text-align: center;
 }
 
