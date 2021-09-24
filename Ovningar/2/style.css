@@ -54,6 +54,7 @@ article {
   margin-right: auto;
   margin-bottom: 0px;
   margin-left: auto;
+  float: left;
 }
 
 article p {
@@ -65,7 +66,7 @@ article p {
   height: 200px;
   padding: 5px;
   border-radius: 10px;
-  
+  float: left;
 }
 
 footer {
@@ -84,4 +85,21 @@ footer p {
 
 .lista {
   color: rgb(179, 179, 179);
+}
+
+aside {
+  width: 30%;
+  padding-left: 15px;
+  right:0;
+  float: right;
+  margin: 0 1.5%;
+}
+
+.iot-logo {
+  height: 40px;
+  padding-right: 10px;
+}
+
+.lista{
+  padding-left: 5px;
 }
