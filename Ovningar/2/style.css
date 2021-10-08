@@ -70,11 +70,11 @@ nav{
   margin-top: 20px;
 }
 
-article p {
+p {
   color: white;
 }
 
-article h2{
+h2{
   color: white;
 }
 
@@ -89,6 +89,9 @@ hr{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.columns {
+  columns: 3;
+}
 
 .lista{
   padding-left: 5px;
