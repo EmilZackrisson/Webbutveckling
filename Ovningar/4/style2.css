@@ -93,6 +93,7 @@ section{
     border-width: 5px;
     margin: auto;
     margin-top: 5px;
+    height: 40vh;
 }
 
 #aside-left > h2{
@@ -103,8 +104,9 @@ section{
     display: flex;
     flex-direction: column;
     margin: auto;
-    margin-top: 5px;
     width: 20%;
+    height: 42vh;
+    justify-content: space-around;
 }
 
 .aside-right-content{
@@ -133,7 +135,7 @@ article{
     border-width: 5px;
     margin: auto;
     margin-top: 5px;
-    
+    height: 40vh;
 }
 
 .aside-left-art{

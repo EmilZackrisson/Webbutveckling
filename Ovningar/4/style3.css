@@ -64,11 +64,12 @@ section{
     display: flex;
     margin-top: 20px;
     justify-content: space-between;
+    height: 80vh;
 }
 
 #img-left{
     width: 10%;
-    height: 100vh;
+    height: 48vh;
     background-color: gray;
 }
 
@@ -81,7 +82,7 @@ section{
 
 #right-content{
     width: 50%;
-    height: 100vh;
+    height: 92vh;
 }
 
 #mid-img{
