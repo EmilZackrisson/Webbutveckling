@@ -1,0 +1,11 @@
+.kyckling{
+    height: 200px;
+    z-index: -1;
+    position:absolute;
+}
+
+.kyckling-over{
+    position: absolute;
+    opacity: 30%;
+    height: 400px;
+}
