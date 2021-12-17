@@ -9,3 +9,18 @@
     opacity: 30%;
     height: 400px;
 }
+
+.text{
+    margin-top: 500px;
+}
+
+.hej{
+    z-index: -1;
+    position: absolute;
+}
+
+.då{
+    position: absolute;
+    opacity: 30%;
+    margin-left: 50px;
+}
