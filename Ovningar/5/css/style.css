@@ -1,5 +1,114 @@
 /* Färg: GRÖN */
 
-body{
-    background-color: #0CFA00;
+* {
+    margin: 0;
 }
+
+body, html{
+    background-color: #000000;
+    font-family: 'Trebuchet MS', sans-serif;
+    width: 100%;   
+    height: 100%;
+    
+    scroll-snap-type: y mandatory;
+    
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+  
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+header{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    background-image: url("header-img.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    /*height: 500px; /* You must set a specified height */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+
+    scroll-snap-align: start;
+
+    
+    
+}
+
+.hwrap{
+    display: flex;
+    position: absolute;
+    top: 45%;
+    margin-top: -82/2;
+    flex-direction: column;
+}
+
+.hwrap > a{
+    margin:auto;
+    z-index: -1;
+}
+
+.hwrap > h1{
+    font-size: 70px;
+    color: white;
+    text-shadow: rgb(31, 31, 31) 4px 3px 0px;
+}
+
+
+.tagline{
+    position: absolute;
+    top: 55%;
+    margin-top: 10px;
+    font-size: 30px;
+    color: white;
+    text-shadow: rgb(31, 31, 31) 4px 3px 0px;
+}
+
+.menu{
+    display: block;
+    width: 100%;
+    height: 100%;
+    box-sizing:border-box;
+    scroll-snap-align: start;
+}
+
+footer{
+    display: block;
+    width: 100%;
+    height: 100%;
+    box-sizing:border-box;
+    scroll-snap-align: start;
+    background-color: black;
+    color: white;
+
+    text-align: center;
+    font-size: 80px;
+    margin-top: 50%;
+}
+
+.menu:nth-last-child(5) {
+    background: rgb(0, 214, 0);
+  }
+
+.menu:nth-last-child(4) {
+    background: rgb(0, 167, 0);
+  }
+
+.menu:nth-last-child(3) {
+    background: rgb(0, 138, 0);
+  }
+
+.menu:nth-last-child(2) {
+    background: darkgreen;
+  }
