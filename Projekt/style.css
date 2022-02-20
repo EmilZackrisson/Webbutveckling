@@ -3,16 +3,34 @@
     padding: 0;
 }
 
+
 header{
-    height: 100vh;
+    height: 70vh;
     width: 100%;
     background-color: pink;
+    background-image: url("img/ehrensvardska.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+#title{
+    color: white;
 }
 
 .icon-hamburger-start{
     height: 40px;
+    margin: 5px;
 }
 
-#title{
+.icon-hamburger-start:hover{
+    background-color: aqua;
+}
 
+.title-sec{
+    display: flex;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+    font-size: 4ch;
 }
