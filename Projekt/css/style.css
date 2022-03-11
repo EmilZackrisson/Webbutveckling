@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Ehrensvärdskas färg */
+    --main-color: #bbe567;
+    /* --main-color: #76ff26; */
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    /* height: 5    0vh; */
+    background-color: var(--main-color);
+}
+
+header {
+    height: 70vh;
+    max-width: 100%;
+    background-image: url("/img/Utsida.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /* background-attachment: fixed; */
+}
+
+/* WAVE */
+
+.custom-shape-divider-bottom-1646923168 {
+    position: absolute;
+    top: calc(70vh - 150px);
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1646923168 svg {
+    position: relative;
+    display: block;
+    width: calc(110% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1646923168 .shape-fill {
+    fill: var(--main-color);
+}
+
+
+/* WAVE END */
+
+
+/* Sidebar nav */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#elever-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.dropdown-icon {
+    margin-top: 1.7ch;
+    margin-left: 3px;
+    height: 15px;
+    cursor: pointer;
+}
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #818181;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd
+}
+
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+
+.show {
+    display: block;
+}
+
+
+
+#title {
+    color: white;
+    text-shadow: 2px 2px black;
+    text-align: center;
+}
+
+.icon-hamburger-start {
+    height: 40px;
+    margin: 5px;
+}
+
+.icon-hamburger-start:hover {
+    cursor: pointer
+}
+
+.title-sec {
+    display: flex;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+    font-size: 4ch;
+}
+
+main {
+    display: grid;
+    align-self: center;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 50px;
+    gap: 50px;
+    width: auto;
+    height: 500px;
+}
+
+#news-section {
+    display: flex;
+    flex-direction: column;
+}
+
+#info {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#calendar-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.section-title {
+    text-align: center;
+    height: 1ch;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+#kalender-iframe {
+    align-self: center;
+    justify-self: center;
+}

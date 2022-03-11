@@ -6,20 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ehrensvärdska</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="nav.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/nav.js"></script>
+
+    <!-- Ladda in hamburgarmeny från extern fil -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+           
+           $('#burger-menu').load("nav.html");
+        
+        });
+        </script>
 </head>
 
 <body>
     <header>
-        <script>
-            $("nav").load("nav.html");
-            if (status == "error") {
-                alert("Sorry but there was an error: " + xhr.status + " " + xhr.statusText);
-            }
-        </script>
-
+        
+        <div id="burger-menu">
+            <!-- Här är menyn från en annan fil -->
+        </div>
 
         <section class="title-sec">
             <h1 id="title">Välkommen till Ehrensvärdska Gymnasiet</h1>
