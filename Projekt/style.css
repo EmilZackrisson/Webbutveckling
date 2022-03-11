@@ -24,7 +24,7 @@ header{
     height: 70vh;
     max-width: 100%;
     background-color: pink;
-    background-image: url("img/ehrensvardska.jpeg");
+    background-image: url("img/Utsida.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -64,32 +64,19 @@ header{
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
-  }
-
- /* Dropdown Button */
- .dropbtn {
-    background-color: #3498DB;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-  }
+}
 
 #elever-nav{
     display: flex;
     flex-direction: row;
 }
 
-#dropdown-icon{
-    margin:auto;
-    height: 50px;
+.dropdown-icon{
+    margin-top: 1.7ch;
+    margin-left: 3px;
+    height: 15px;
+    cursor: pointer;
 }
-  
-  /* Dropdown button on hover & focus */
-  .dropbtn:hover, .dropbtn:focus {
-    background-color: #2980B9;
-  }
   
   /* The container <div> - needed to position the dropdown content */
   .dropdown {
@@ -101,15 +88,15 @@ header{
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
+    background-color: #818181;
+    min-width: 100px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
   
   /* Links inside the dropdown */
   .dropdown-content a {
-    color: black;
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
