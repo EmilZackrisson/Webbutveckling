@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,12 +7,8 @@
 :root {
     /* Ehrensvärdskas färg */
     --main-color: #bbe567;
-
     /* --main-color: #76ff26; */
-
-    
-  }
-  
+}
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
@@ -20,7 +16,7 @@ body {
     background-color: var(--main-color);
 }
 
-header{
+header {
     height: 70vh;
     max-width: 100%;
     background-color: pink;
@@ -31,7 +27,9 @@ header{
     background-attachment: fixed;
 }
 
+
 /* Sidebar nav */
+
 .sidenav {
     height: 100%;
     width: 0;
@@ -43,22 +41,22 @@ header{
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-  }
-  
-  .sidenav a {
+}
+
+.sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
     color: #818181;
     display: block;
     transition: 0.3s;
-  }
-  
-  .sidenav a:hover {
+}
+
+.sidenav a:hover {
     color: #f1f1f1;
-  }
-  
-  .sidenav .closebtn {
+}
+
+.sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
@@ -66,48 +64,61 @@ header{
     margin-left: 50px;
 }
 
-#elever-nav{
+#elever-nav {
     display: flex;
     flex-direction: row;
 }
 
-.dropdown-icon{
+.dropdown-icon {
     margin-top: 1.7ch;
     margin-left: 3px;
     height: 15px;
     cursor: pointer;
 }
-  
-  /* The container <div> - needed to position the dropdown content */
-  .dropdown {
+
+
+/* The container <div> - needed to position the dropdown content */
+
+.dropdown {
     position: relative;
     display: inline-block;
-  }
-  
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: #818181;
     min-width: 100px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
+}
+
+
+/* Links inside the dropdown */
+
+.dropdown-content a {
     color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-  }
-  
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #ddd}
-  
-  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-  .show {display:block;} 
+}
 
+
+/* Change color of dropdown links on hover */
+
+.dropdown-content a:hover {
+    background-color: #ddd
+}
+
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+
+.show {
+    display: block;
+}
 
 
 /* .wave{
@@ -117,6 +128,7 @@ header{
 
 
 /* WAVE */
+
 .custom-shape-divider-bottom-1646923168 {
     position: absolute;
     top: calc(70vh - 150px);
@@ -138,25 +150,25 @@ header{
     fill: var(--main-color);
 }
 
+
 /* WAVE END */
 
-#title{
+#title {
     color: white;
     text-shadow: 2px 2px black;
     text-align: center;
 }
 
-.icon-hamburger-start{
+.icon-hamburger-start {
     height: 40px;
     margin: 5px;
 }
 
-.icon-hamburger-start:hover{
-    background-color: aqua;
-    cursor:pointer
+.icon-hamburger-start:hover {
+    cursor: pointer
 }
 
-.title-sec{
+.title-sec {
     display: flex;
     height: 70%;
     justify-content: center;
@@ -164,7 +176,7 @@ header{
     font-size: 4ch;
 }
 
-main{
+main {
     display: grid;
     align-self: center;
     grid-template-columns: repeat(2, 1fr);
@@ -174,31 +186,31 @@ main{
     height: 500px;
 }
 
-#news-section{
+#news-section {
     display: flex;
     flex-direction: column;
 }
 
-#info{
+#info {
     margin-left: 30px;
     margin-right: 30px;
 }
 
-#calendar-section{
+#calendar-section {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 100%;
 }
 
-.section-title{
+.section-title {
     text-align: center;
     height: 1ch;
     width: 100%;
     margin-bottom: 40px;
 }
 
-#kalender-iframe{
-    align-self:center;
+#kalender-iframe {
+    align-self: center;
     justify-self: center;
 }
