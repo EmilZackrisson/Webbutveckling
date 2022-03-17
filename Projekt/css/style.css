@@ -7,6 +7,7 @@
 :root {
     /* Ehrensvärdskas färg */
     --main-color: #bbe567;
+    --main-fade: linear-gradient(to right, #bbe567 , rgb(179, 255, 0));
     /* --main-color: #76ff26; */
 }
 
@@ -14,6 +15,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     /* height: 5    0vh; */
     background-color: var(--main-color);
+    /* background-image: linear-gradient(to right, #bbe567, rgb(179, 255, 0)); */
 }
 
 header {
