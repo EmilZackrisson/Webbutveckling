@@ -21,7 +21,8 @@ body {
 header {
     height: 70vh;
     max-width: 100%;
-    background-image: url("https://self.emilzackrisson.tk/img/skola/Ehrensv%C3%A4rdska.jpg");
+    /* background-image: url("https://self.emilzackrisson.tk/img/skola/Ehrensvardska.jpg"); */
+    background-image: url(../img/Utsida.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
