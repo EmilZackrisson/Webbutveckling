@@ -7,7 +7,7 @@
 :root {
     /* Ehrensvärdskas färg */
     --main-color: #bbe567;
-    --main-fade: linear-gradient(to right, #bbe567 , rgb(179, 255, 0));
+    --main-fade: linear-gradient(to right, #bbe567, rgb(179, 255, 0));
     /* --main-color: #76ff26; */
 }
 
@@ -21,12 +21,13 @@ body {
 header {
     height: 70vh;
     max-width: 100%;
-    background-image: url("/img/Utsida.jpg");
+    background-image: url("https://self.emilzackrisson.tk/img/skola/Ehrensv%C3%A4rdska.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     /* background-attachment: fixed; */
 }
+
 
 /* WAVE */
 
@@ -103,13 +104,10 @@ header {
     cursor: pointer;
 }
 
-
-
 .dropdown {
     position: relative;
     display: inline-block;
 }
-
 
 .dropdown-content {
     display: none;
@@ -137,8 +135,6 @@ header {
 .show {
     display: block;
 }
-
-
 
 #title {
     color: white;
